@@ -1,0 +1,6 @@
+import includes from "../src/includes";
+let pets = ['cat','dog','fish']
+test('includes',()=>{
+    expect(includes(pets,'cat')).toEqual(true)
+    expect(includes(pets,'at')).toEqual(false)
+})

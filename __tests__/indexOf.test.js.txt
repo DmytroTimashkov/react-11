@@ -1,0 +1,6 @@
+import indexOf from "../src/indexOf";
+let arr = [1,2,3,4,5,6,7]
+test('elementIndexOfArray',()=>{
+    expect(indexOf(arr,3)).toEqual(2)
+    expect(indexOf(arr,8)).toEqual(-1)
+})
